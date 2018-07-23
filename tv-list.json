@@ -1,0 +1,42 @@
+{
+    "tvlist":
+    
+
+[
+    {
+   	"id": 1,
+   	"title": "SAMSUNG UE32J5200AKXUA",
+   	"description": "Гарантия:12 мес. Диагональ:32 (81 см) Разрешение:1920 х 1080 (Full HD) Smart TV:Smart TV Беспроводные коммуникации:Wi-Fi; DLNA",
+    "price": "9999",
+    "image": "img/samsung-ue32.jpg"
+    },
+    {
+   	"id": 2,
+   	"title": "LG 49UJ630V",
+   	"description": "Гарантия:12 мес. Диагональ:49 (125 см) Разрешение:3840 x 2160 (4K UHD) Smart TV:Smart TV; WebOS Беспроводные коммуникации:Wi-Fi; Bluetooth; DLNA; Miracast; WiDi",
+    "price": "21499",
+    "image": "img/LG-49UJ630V.jpg"   
+    },
+    {
+   	"id": 3,
+   	"title": "Samsung UE32M5500AUXUA",
+    "description": "Гарантия:12 мес. Диагональ:32 (81 см) Разрешение:1920 х 1080 (Full HD) Smart TV:Smart TV Беспроводные коммуникации:Bluetooth; DLNA; Wi-Fi Direct",
+   	"price": "13200",
+    "image": "img/Samsung-UE32M5500AU.jpg"
+    },
+    {
+   	 "id": 4,
+   	 "title": "BRAVIS LED-32E3000 Smart",
+   	 "description": "Гарантия:12 мес. Диагональ:32 (81 см) Разрешение:1366 х 768 (WXGA) Smart TV:Smart TV; Android Беспроводные коммуникации:Wi-Fi",
+   	 "price": "5500",
+        "image": "img/BRAVIS-LED-32E3000.jpg"
+    },
+    {
+   	 "id": 5,
+   	 "title": "LG 32LH570U",
+    "description": "Гарантия:12 мес. Диагональ:32 (81 см) Разрешение:1366 х 768 (WXGA) Smart TV:Smart TV; WebOS Беспроводные коммуникации:Wi-Fi; DLNA; Miracast; WiDi",
+    "price": "7999",
+    "image": "img/LG-032LH570U.jpg"  
+    }
+]
+}

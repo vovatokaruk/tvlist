@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="tvApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+    <script type="text/javascript" src="javas.js"></script> 
+    <title>tv</title>
+</head>
+<body>
+    
+        <div ng-controller="tvListController">
+        <div ng-repeat="tv in tvs">
+        <img ng-src="{{tv.image}}" alt="{{tv.title}}" class="img" />
+        <b>{{tv.title}}</b>
+        <p>Ціна: {{tv.price}} грн</p>
+        <p>Опис: {{tv.description}}</p>
+        <button class="btn" type="button" ng-click="remove($index)">Delete</button>
+        </div>
+        </div>
+    
+    
+    
+       
+</body>
+</html>
