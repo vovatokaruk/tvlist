@@ -6,15 +6,9 @@ tvApp.controller('tvListController', function tvListController($scope, $http) {
   then(function success(response) {
       $scope.tvs=response.data.tvlist;
 });
-
-  $scope.delete = function ( idx ) {
-    var tv_to_delete = $scope.persons[idx];
-  
-    API.DeletePerson({ id: tv_to_delete.id }, function (success) {
-      $scope.tvs.splice(idx, 1);
-    });
-  };
-
+$scope.delete = function ( id ) {
+  $scope.tvs = $scope.tvs.filter(item => item.id !== id);
+};
 });
 
 
